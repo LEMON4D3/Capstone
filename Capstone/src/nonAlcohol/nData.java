@@ -313,44 +313,44 @@ public class nData {
 			
 			
 			item.add(new lib.item(
-					"Espresso Coffee",
-					"Description",
-					"P 116.25",
+					"Espresso Coffee 7oz.",
+					"<html>Whether you enjoy it on its own or use it as the base for your favorite lattes, cappuccinos, or mochas, Espresso offers a deep, robust taste that coffee lovers crave.<br>| Caffeine: 15mg/oz <br>| Bean: Espresso <br>| Temp:  ~160°F (71°C)</html>",
+					"P 65.50",
 					espresso
 					));
 			
 			item.add(new lib.item(
-					"Caffe Mocha",
-					"Description",
-					"P 116.25",
+					"Caffé Mocha 9 oz.",
+					"<html>Caffè Mocha combines rich coffee, a creamy texture, and a sweet chocolate finish, making a perfect indulgence for unwinding, meeting friends, or just treating yourself.<br>| Caffeine: 14mg/oz <br>| Bean: Espresso<br>| Temp:  ~160°F (71°C)</html>",
+					"P 67.89",
 					caffe
 					));
 			
 			item.add(new lib.item(
-					"Latte Coffee",
-					"Description",
-					"P 116.25",
+					"Latte Coffee 9 oz.",
+					"<html>Latte offers a creamy texture and mild coffee taste, making it the perfect soothing yet energizing choice for any time of day.<br>| Caffeine: 63mg/oz <br>| Bean: Espresso<br>| Temp:  ~160°F (71°C)</html>",
+					"P 68.90",
 					latte
 					));
 			
 			item.add(new lib.item(
-					"Frappucino Coffee",
-					"Description",
-					"P 116.25",
+					"Frappuccino Coffee 13 oz.",
+					"<html>Frappuccino is a creamy, iced coffee blend of espresso, milk, and ice, topped with whipped cream and sometimes caramel or chocolate for a sweet, refreshing treat.<br>| Caffeine: 12mg/oz <br>| Bean: Espresso <br>| Temp:  ~160°F (71°C)</html>",
+					"P 78.87",
 					frappucino
 					));
 			
 			item.add(new lib.item(
-					"Americano Coffee",
-					"Description",
-					"P 116.25",
+					"Americano Coffee 8 oz.",
+					"<html>An Americano is made by diluting espresso with hot water, offering a smooth, full-bodied flavor that's less intense than straight espresso, perfect for coffee purists who enjoy a robust, subtle drink.<br>| Caffeine: 12mg/oz <br>| Bean: Espresso <br>| Temp:  ~160°F (71°C)</html>",
+					"P 62.76",
 					americano
 					));
 			
 			item.add(new lib.item(
-					"Cappucino Coffee",
-					"Description",
-					"P 116.25",
+					"Cappuccino Coffee 8 oz.",
+					"<html>A cappuccino features a bold espresso base, creamy texture, and a light airy foam on the top, offering a perfectly balanced taste for those who enjoy strong coffee with a smooth finish.<br>| Caffeine: 8mg/oz <br>| Bean: Espresso <br>| Temp:  ~160°F (71°C)</html>",
+					"P 65.90",
 					cappucino
 					));
 			

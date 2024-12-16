@@ -69,14 +69,16 @@ public class coffee extends JLayeredPane{
 			
 			JLabel name = new JLabel(item.name, SwingConstants.CENTER);
 			name.setBounds(0, 16, 300, 47);
-			name.setFont(tools.RegularFont(32));
+			name.setFont(tools.RegularFont(24));
 			
-			JLabel desc = new JLabel("<html>" + item.desc + "</html>");
-			desc.setFont(tools.RegularFont(32));
-			desc.setBounds(97, 52, 142, 47);
+			JLabel desc = new JLabel(item.desc);
+			desc.setFont(tools.RegularFont(14));
+			desc.setVerticalAlignment(JLabel.TOP);
+			
+			desc.setBounds(25, 60, 275, 150);
 			
 			JLabel price = new JLabel(item.price);
-			price.setBounds(38, 173, 150, 47);
+			price.setBounds(25, 200, 150, 47);
 			price.setFont(tools.RegularFont(32));
 			
 			this.add(name);
