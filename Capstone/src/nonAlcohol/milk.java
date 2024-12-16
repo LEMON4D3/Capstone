@@ -31,7 +31,7 @@ public class milk extends JLayeredPane{
 		container.setOpaque(false);
 		
 		JScrollPane pane = new JScrollPane(container);
-		pane.setBounds(0, 160, 1080, 720 - 158);
+		pane.setBounds(0, 100, 1080, 720 - 158);
 		pane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_NEVER);
 		pane.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		pane.getVerticalScrollBar().setUnitIncrement(16);
@@ -83,18 +83,22 @@ public class milk extends JLayeredPane{
 			image.setIcon(item.image);
 			
 			JLabel name = new JLabel(item.name);
+			name.setFont(tools.BoldFont(36));
 			
-			JLabel desc = new JLabel("<html>" + item.desc + "</html>");
+			JLabel desc = new JLabel(item.desc);
+			desc.setVerticalAlignment(JLabel.TOP);
+			desc.setFont(tools.RegularFont(24));
 			
 			JLabel price = new JLabel(item.price);
+			price.setFont(tools.BoldFont(36));
 			
 			if(rightSide) {
 				
-				image.setBounds(75, 85, 380, 430);
-				name.setBounds(509, 85, 501, 61);
-				desc.setBounds(509, 149, 488, 257);
-				price.setBounds(508, 406, 116, 61);
-				btn.setBounds(644, 469, 217, 68);
+				image.setBounds(75, 85, 375, 425);
+				name.setBounds(500, 75, 501, 61);
+				desc.setBounds(500, 150, 488, 257);
+				price.setBounds(500, 425, 150, 61);
+				btn.setBounds(644, 475, 225, 68);
 				
 				this.add(btn);
 				this.add(image);
@@ -105,10 +109,10 @@ public class milk extends JLayeredPane{
 				return;
 			}
 				
-			image.setBounds(629, 73, 368, 429);
-			name.setBounds(96, 103, 486, 61);
-			desc.setBounds(96, 170, 470, 203);
-			price.setBounds(96, 380, 116, 61);
+			image.setBounds(675, 25, 375, 425);
+			name.setBounds(100, 25, 500, 75);
+			desc.setBounds(100, 100, 500, 325);
+			price.setBounds(100, 375, 300, 50);
 			btn.setBounds(218, 447, 217, 65);
 			
 			this.add(btn);

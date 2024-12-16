@@ -22,12 +22,12 @@ public class Init extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		
-		this.add(new login());
+		//this.add(new login());
 		
 		//this.add(new createReceipt());
 		
 		//this.add(new lib.lib.distilledF(new whiskey(), 1));
-		//this.add(new lib.lib.fruitF(new smoothie(), 3 ));
+		this.add(new lib.lib.fruitF(new milk(), 4 ));
 		
 		this.pack();
 		this.setLocationRelativeTo(null);
