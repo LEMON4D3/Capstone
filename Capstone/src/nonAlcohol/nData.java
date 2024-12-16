@@ -1,0 +1,445 @@
+package nonAlcohol;
+
+import java.util.LinkedList;
+
+import javax.swing.ImageIcon;
+
+import lib.lib;
+
+public class nData {
+	
+	public nData() {
+		
+		new juice();
+		new tea();
+		new smoothie();
+		new milk();
+		new milkShake();
+		new coffee();
+		new mockTail();
+		
+	}
+	
+	public static class juice {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/juice/";
+		
+		public juice() {
+			
+			ImageIcon orange = new ImageIcon(imageLoc + "orange.png");
+			ImageIcon mango = new ImageIcon(imageLoc + "mango.png");
+			ImageIcon coconut = new ImageIcon(imageLoc + "coconut.png");
+			ImageIcon apple = new ImageIcon(imageLoc + "apple.png");
+			ImageIcon grape = new ImageIcon(imageLoc + "grape.png");
+			ImageIcon pineapple = new ImageIcon(imageLoc + "pineapple.png");
+			ImageIcon watermelon = new ImageIcon(imageLoc + "watermelon.png");
+			ImageIcon melon = new ImageIcon(imageLoc + "melon.png");
+			
+			item.add(new lib.item(
+					"Orange Juice 12 oz.",
+					"<html>Made from the juiciest, sun-ripened oranges, Orange Juice brings you the pure, fresh taste of the fruit, with no artificial flavors or preservatives. It’s the perfect refreshing beverage to keep you feeling energized and refreshed in any time of the day.<br><b>Sugar Content:</b> 25g<br></html>",
+					"P 25.20",
+					orange
+					));
+			
+			item.add(new lib.item(
+					"Mango Juice 500ml",
+					"<html>With its rich, smooth texture and refreshing taste, this juice is the perfect way to indulge in the exotic sweetness of one of the world’s most beloved fruits. Bursting with vitamins and antioxidants, Mango Juice offers a refreshing, nutritious boost that keeps you feeling energized throughout the day.<br><b>Sugar Content:</b> 20g</html>",
+					"P 29.20",
+					mango
+					));
+			
+			item.add(new lib.item(
+					"Coconut Juice 500ml",
+					"<html>Made from the pure, natural goodness of young coconuts, this juice offers a subtly sweet, light flavor with a hint of creamy coconut essence. Packed with electrolytes, vitamins, and minerals, Coconut Juice is not only delicious but also hydrating, making it the perfect drink to keep you refreshed and energized throughout the day.<br><b>Sugar Content:</b> 24g</html>",
+					"P 25.20",
+					coconut
+					));
+			
+			item.add(new lib.item(
+					"Apple Juice 500ml",
+					"<html>With its light, smooth flavor and subtle tartness, this juice is a perfect balance of sweet and tangy in every sip. Packed with vitamins and antioxidants, Apple Juice is not only delicious but also nourishing, making it an ideal choice for a healthy refreshment any time of day.<br><b>Sugar Content:</b> 24g</html>",
+					"P 30.40",
+					apple
+					));
+			
+			item.add(new lib.item(
+					"Grape Juice 500ml",
+					"<html>Made from the finest, juiciest grapes, this juice is free from artificial flavors and preservatives, delivering an authentic, fresh taste every time.  The perfect balance of sweetness and tartness, Grape Juice is a revitalizing drink that’s both nourishing and incredibly satisfying.<br><b>Sugar Content:</b> 24g</html>",
+					"P 26.20",
+					grape
+					));
+			
+			item.add(new lib.item(
+					"Pineapple Juice 500ml",
+					"<html>Whether you're sipping it on a warm afternoon, pairing it with breakfast, or using it as a base for tropical cocktails, Pineapple Juice adds a sweet and zesty touch to any moment. With no artificial additives or preservatives, you can enjoy the pure, fresh taste of pineapples in every glass.<br><b>Sugar Content:</b> 23g</html>",
+					"P 25.20",
+					pineapple
+					));
+			
+			item.add(new lib.item(
+					"<html>Watermelon Juice 500ml</html>",
+					"<html>Made from the juiciest, most flavorful watermelons, this juice delivers pure, fresh taste with no added preservatives or artificial flavors. Whether you’re enjoying it after a workout, as a mid-day pick-me-up, or just craving something cool and sweet, Watermelon Juice is the perfect thirst-quenching beverage.<br><b>Sugar Content:</b> 20g</html>",
+					"P 34.20",
+					watermelon
+					));
+			
+			item.add(new lib.item(
+					"Melon Juice 500ml",
+					"<html>With its light, smooth texture and natural sweetness, this juice is the perfect way to enjoy the vibrant, summery taste of melon all year round. Packed with hydration and nutrients, Melon Juice is both refreshing and nourishing, making it the ultimate choice for staying cool and energized.<br><b>Sugar Content:</b> 20g</html>",
+					"P 32.40",
+					melon
+					));
+		
+		}
+	}
+	
+	public static class tea {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/tea/";
+		
+		public tea() {
+			
+			ImageIcon hibiscus = new ImageIcon(imageLoc + "hibiscus.png");
+			ImageIcon peppermint = new ImageIcon(imageLoc + "peppermint.png");
+			ImageIcon green = new ImageIcon(imageLoc + "green.png");
+			ImageIcon ginger = new ImageIcon(imageLoc + "ginger.png");
+			ImageIcon white = new ImageIcon(imageLoc + "white.png");
+			
+			item.add(new lib.item(
+					"Pure Leaf Blackberry Tea 547ml",
+					"<html>Dive into the luscious taste of our blackberry tea, expertly crafted to capture the deep, sweet flavor of ripe blackberries in every cup. This delightful blend combines the robust essence of blackberries with the smoothness of premium tea leaves, creating a refreshing beverage perfect for any occasion.</html>",
+					"P 65.20",
+					hibiscus
+					));
+			
+			item.add(new lib.item(
+					"Pure Leaf Sweet Tea 547ml",
+					"<html>Perfect for every occasion, it's your go-to choice for a sweet escape from the ordinary. It offers a perfect harmony of rich, full-bodied tea leaves sweetened just right, creating a delightful, invigorating, and comforting beverage. It doesn't matter whether it's enjoyed ice-cold on a sunny day or leisurely sipped for a moment of relaxation, our sweet tea delivers a taste of tradition and warmth in every sip.</html>",
+					"P 65.50",
+					peppermint
+					));
+			
+			item.add(new lib.item(
+					"Pure Leaf Honey Green Tea  547ml",
+					"<html>Each sip is a soothing journey of harmony—invigorating yet calming, light yet full of flavor. Unwind and refresh where the smooth, delicate taste of premium green tea meets the natural sweetness of pure honey.</html>",
+					"P 65.50",
+					green
+					));
+			
+			item.add(new lib.item(
+					"Pure Leaf Lemon Tea 547ml",
+					"<html>Infused with vibrant lemon zest, this crisp and aromatic brew is the ultimate way to brighten your day. Rich in vitamin C, it's as good for your body as it is for your taste buds—promoting wellness with every sip. Let it be the vibrant spark that energizes your day.</html>",
+					"P 69.50",
+					ginger
+					));
+			
+			item.add(new lib.item(
+					"Pure Leaf Raspberry Tea 547ml",
+					"<html>Whether you enjoy it hot to warm your soul, or iced for a crisp, refreshing treat, our raspberry tea promises a delightful and rejuvenating experience. Rich in antioxidants and naturally caffeine-free, it's a healthy and flavorful choice for tea enthusiasts.</html>",
+					"P 60.38 ",
+					white
+					));
+		}
+	}
+	
+	public static class smoothie {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/smoothie/";
+		
+		public smoothie() {
+			
+			ImageIcon banana = new ImageIcon(imageLoc + "banana.png");
+			ImageIcon peanut = new ImageIcon(imageLoc + "peanut.png");
+			ImageIcon cherry = new ImageIcon(imageLoc + "cherry.png");
+			
+			ImageIcon avocado = new ImageIcon(imageLoc + "avocado.png");
+			ImageIcon bananaOat = new ImageIcon(imageLoc + "bananaOat.png");
+			ImageIcon orange = new ImageIcon(imageLoc + "orange.png");
+			
+			item.add(new lib.item(
+					"Banana Blue Smoothie 250ml",
+					"<html>Full of antioxidants, vitamins, and fiber, this smoothie not only tastes amazing but also supports a healthy, active lifestyle. The combination of the tropical banana and antioxidant-rich blueberries provides a burst of energy, making it an ideal choice for fueling your day or satisfying your cravings.<br>Fat Content: 1-3g | Sugar Content: 25g</html>",
+					"P 32.00",
+					banana
+					));
+			
+			item.add(new lib.item(
+					"Peanut Butter Berry 250ml ",
+					"<html>Packed with protein, fiber, and essential nutrients, the Peanut Butter Berry Smoothie is the perfect balance of indulgence and nourishment. Whether you're fueling up after a workout, enjoying it as a mid-day snack, or treating yourself to something sweet, this smoothie will keep you satisfied and energized.<br>Fat Content: 10-16g| Sugar Content: 20g</html>",
+					"P 32.00",
+					peanut
+					));
+			
+			item.add(new lib.item(
+					"Cherry Almond 350ml",
+					"<html>This smooth and creamy beverage offers the perfect balance of fruity brightness and warm, nutty depth, creating a truly satisfying drink that’s as delicious as it is nutritious. With every sip, you'll experience the natural sweetness of cherries paired with the wholesome goodness of almonds, delivering a smooth, velvety texture that's hard to resist.<br>Fat Content: 5-12g| Sugar Content: 27g</html>",
+					"P 58.00",
+					cherry
+					));
+			
+			item.add(new lib.item(
+					"Avocado Banana 500ml",
+					"<html>This smoothie delivers a perfectly balanced, smooth experience with a light, refreshing taste that’s as nourishing as it is delicious. The creamy avocado adds a rich, indulgent feel, while the banana brings a natural sweetness that perfectly complements the avocado’s mild flavor.<br>Fat Content: 10-15g | Sugar Content: 18g</html>",
+					"P 50.00",
+					avocado
+					));
+			
+			item.add(new lib.item(
+					"Banana Oat 250ml",
+					"<html>Banana Oat Smoothie is the perfect blend of creamy, naturally sweet bananas and wholesome, hearty oats, creating a deliciously satisfying drink that’s both nutritious and filling. This smoothie offers a smooth, velvety texture with a subtle sweetness from ripe bananas, complemented by the rich, earthy flavor of oats. It’s the ideal choice for anyone looking for a wholesome, energizing boost to kickstart their day or fuel an active lifestyle.<br>Fat Content: 2-5g| Sugar Content: 25g</html>",
+					"P 32.00",
+					bananaOat
+					));
+			
+			item.add(new lib.item(
+					"Orange Vanilla 500ml",
+					"<html>Orange Vanilla Smoothie is a refreshing and indulgent blend that combines the bright, zesty flavor of fresh oranges with the creamy sweetness of vanilla. Whether you’re looking for a revitalizing snack, a breakfast boost, or a sweet treat, this smoothie offers a delightful combination of flavor and nourishment.<br>Fat Content: 1-4g| Sugar Content: 30g</html>",
+					"P 40.00",
+					orange
+					));
+		}
+	}
+	
+	public static class milk {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/milk/";
+		
+		public milk() {
+			
+			ImageIcon almond = new ImageIcon(imageLoc + "almond.png");
+			ImageIcon hazelnut = new ImageIcon(imageLoc + "hazelnut.png");
+			ImageIcon soy = new ImageIcon(imageLoc + "soy.png");
+			
+			item.add(new lib.item(
+					"Innocent Almond Milk 750ml",
+					"<html>Perfect for every pour, our almond milk is a nutritious and delicious alternative to dairy, providing a natural source of essential vitamins and minerals. Whether you're blending it into your morning smoothie, pouring it over cereal, or enjoying a glass on its own, our almond milk promises a delightful, creamy experience without the guilt.<br><b>Fat Content:</b> 3.4g</html>",
+					"P 222.18",
+					almond
+					));
+			
+			item.add(new lib.item(
+					"Innocent Hazelnut Milk 750ml",
+					"<html>This luxurious beverage offers a deliciously creamy texture and a uniquely nutty flavor that will elevate your taste experience. Perfect for adding a touch of decadence to your morning coffee, blending into smoothies, or enjoying on its own, our hazelnut drink is a delightful treat for your palate.<br><b>Fat Content:</b> 3.9g</html>",
+					"P 239.16",
+					hazelnut
+					));
+			
+			item.add(new lib.item(
+					"Innocent Coconut Milk 750ml",
+					"<html>Packed with natural electrolytes and essential nutrients, our coconut drink is the perfect hydrating companion for your active lifestyle. This luscious beverage delivers a creamy, tropical flavor that transports you to a serene island paradise with every sip.<br><b>Sugar Content:</b> 4.0g</html>",
+					"P 267.95",
+					soy
+					));
+			
+		}
+	}
+	
+	public static class milkShake {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/milkShake/";
+		
+		public milkShake() {
+			
+			ImageIcon cool = new ImageIcon(imageLoc + "cool.png");
+			ImageIcon coconut = new ImageIcon(imageLoc + "coconut.png");
+			ImageIcon blueBerry = new ImageIcon(imageLoc + "blueBerry.png");
+			ImageIcon vanilla = new ImageIcon(imageLoc + "vanilla.png");
+			ImageIcon tripleNut = new ImageIcon(imageLoc + "tripleNut.png");
+			
+			
+			item.add(new lib.item(
+					"Cool Mint MilkShake",
+					"A liquid naturally extracted from fruits or vegetables, packed with vitamins, minerals, and nutrients. It can be enjoyed fresh or processed and is often consumed for its refreshing taste and health benefits.",
+					"P 116.25",
+					cool
+					));
+			
+			item.add(new lib.item(
+					"Coconut MilkShake",
+					"Crafted from the finest grains, hops, water, and yeast. Bold flavors, smooth textures, and refreshing satisfaction in every sip. Whether it's a crisp lager or a hoppy IPA, there's a perfect brew for everyone. Cheers to good times!",
+					"P 102.90",
+					coconut
+					));
+			
+			item.add(new lib.item(
+					"Blueberry Cheesecake MilkShake",
+					"A fizzy, sweetened drink with a variety of flavors, from cola to fruit. Refreshing and bubbly, it's perfect for any moment!",
+					"P 95.95",
+					blueBerry
+					));
+			
+			item.add(new lib.item(
+					"Vanilla Special Milkshake",
+					"Nature's perfect drink! Packed with calcium and protein, it's creamy, nutritious, and versatile. Whether enjoyed on its own or in your favorite recipes, milk is a delicious choice for a healthy lifestyle. Drink up for strong bones and a happy life!",
+					"P 95.95",
+					vanilla
+					));
+			
+			item.add(new lib.item(
+					"Triple Nut Caramel MilkShake",
+					"A refined drink made from fermented grapes, featuring diverse flavors and aromas. Perfect for pairing with food, there's a wine for every occasion. Elevate your experience with every sip!",
+					"P 95.95",
+					tripleNut
+					));
+			
+		}
+	}
+	
+	public static class coffee {
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/coffee/";
+		
+		public coffee() {
+			
+			ImageIcon espresso = new ImageIcon(imageLoc + "espresso.png");
+			ImageIcon caffe = new ImageIcon(imageLoc + "caffe.png");
+			ImageIcon latte = new ImageIcon(imageLoc + "latte.png");
+			ImageIcon frappucino = new ImageIcon(imageLoc + "frappucino.png");
+			ImageIcon americano = new ImageIcon(imageLoc + "americano.png");
+			ImageIcon cappucino = new ImageIcon(imageLoc + "cappucino.png");
+			
+			
+			item.add(new lib.item(
+					"Espresso Coffee",
+					"Description",
+					"P 116.25",
+					espresso
+					));
+			
+			item.add(new lib.item(
+					"Caffe Mocha",
+					"Description",
+					"P 116.25",
+					caffe
+					));
+			
+			item.add(new lib.item(
+					"Latte Coffee",
+					"Description",
+					"P 116.25",
+					latte
+					));
+			
+			item.add(new lib.item(
+					"Frappucino Coffee",
+					"Description",
+					"P 116.25",
+					frappucino
+					));
+			
+			item.add(new lib.item(
+					"Americano Coffee",
+					"Description",
+					"P 116.25",
+					americano
+					));
+			
+			item.add(new lib.item(
+					"Cappucino Coffee",
+					"Description",
+					"P 116.25",
+					cappucino
+					));
+			
+		}
+	}
+	
+	public static class mockTail{
+		
+		public static LinkedList<lib.item> item = new LinkedList<lib.item>();
+		
+		String imageLoc = "src/rsc/nonAlcohol/mockTail/";
+		
+		public mockTail() {
+			
+			ImageIcon tamarind = new ImageIcon(imageLoc + "tamarind.png");
+			ImageIcon sparklingTropical = new ImageIcon(imageLoc + "sparklingTropical.png");
+			ImageIcon strawberryDaiquiri = new ImageIcon(imageLoc + "strawberryDaiquiri.png");
+			ImageIcon pinaColada = new ImageIcon(imageLoc + "pinaColada.png");
+			ImageIcon tcShirley = new ImageIcon(imageLoc + "tcShirley.png");
+			ImageIcon chocolateMartini = new ImageIcon(imageLoc + "chocolateMartini.png");
+			ImageIcon mojito = new ImageIcon(imageLoc + "mojito.png");
+			ImageIcon tartCherry = new ImageIcon(imageLoc + "tartCherry.png");
+			ImageIcon virginMary = new ImageIcon(imageLoc + "virginMary.png");
+			
+			item.addLast(new lib.item(
+					"Tamarind Pineapple Quencher Mocktails",
+					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
+					"P 25.20",
+					tamarind
+					));
+			
+			item.addLast(new lib.item(
+					"Sparkling Tropical Mocktails",
+					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
+					"P 26.20",
+					sparklingTropical
+					));
+			
+			item.addLast(new lib.item(
+					"Strawberry Daiquiri Mocktails",
+					"The OG, the flavor that started it all—classic, cool, crisp lemon-lime taste that’s caffeine free with 100% natural flavors.",
+					"P 25.20",
+					strawberryDaiquiri
+					));
+			
+			item.addLast(new lib.item(
+					"Chocolate Martini Mocktails",
+					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
+					"P 34.20",
+					chocolateMartini
+					));
+			
+			item.addLast(new lib.item(
+					"Pina Colada Mocktails",
+					"Mountain Dew delivers a bold, citrusy punch with sharp lemon-lime flavors and a smooth hint of tropical sweetness. Its lively fizz adds an extra burst of refreshment, making it an energizing and vibrant drink.",
+					"P 32.40",
+					pinaColada
+					));
+			
+			item.addLast(new lib.item(
+					"Tart Cherry Shirley Temple Mocktails",
+					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
+					"P 34.20",
+					tcShirley
+					));
+	
+			item.addLast(new lib.item(
+					"Mojito Mocktail",
+					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
+					"P 34.20",
+					mojito
+					));
+			
+			item.addLast(new lib.item(
+					"Tart Cherry-Hibiscus Mocktails",
+					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
+					"P 34.20",
+					tartCherry
+					));
+			
+			item.addLast(new lib.item(
+					"Virgin Mary's Mocktails",
+					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
+					"P 34.20",
+					virginMary
+					));
+		}
+		
+	}
+
+	
+}
