@@ -90,25 +90,28 @@ public class milkShake extends JLayeredPane{
 			
 			JLabel image = new JLabel();
 			image.setIcon(item.image);
-			image.setBounds(23, 17, 215, 170);
+			image.setBounds(50, 25, 225, 175);
 			
 			JLabel name = new JLabel(item.name);
-			name.setBounds(250, 21, 395, 32);
+			name.setBounds(300, 25, 400, 25);
 			name.setFont(tools.BoldFont(24));
 			
-			JLabel desc = new JLabel("<html>" + item.desc + "</html>");
+			JLabel desc = new JLabel(item.desc);
+			desc.setVerticalAlignment(JLabel.TOP);
 			desc.setFont(tools.RegularFont(24));
-			desc.setBounds(250, 35, 669, 164);
+			desc.setBounds(300, 50, 675, 175);
+			desc.setFont(tools.RegularFont(16));
 			
 			JLabel price = new JLabel(item.price);
-			price.setBounds(230, 161, 211, 32);
+			price.setBounds(300, 165, 225, 50);
+			price.setFont(tools.BoldFont(24));
 			
 			this.add(new background(), Integer.valueOf(0));
 			
 			this.add(image, Integer.valueOf(1));
 			this.add(name, Integer.valueOf(1));
 			this.add(desc, Integer.valueOf(1));
-			//this.add(price, Integer.valueOf(1));
+			this.add(price, Integer.valueOf(1));
 			
 		}
 		

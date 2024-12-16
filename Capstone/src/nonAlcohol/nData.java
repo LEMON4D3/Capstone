@@ -259,37 +259,37 @@ public class nData {
 			
 			
 			item.add(new lib.item(
-					"Cool Mint MilkShake",
-					"A liquid naturally extracted from fruits or vegetables, packed with vitamins, minerals, and nutrients. It can be enjoyed fresh or processed and is often consumed for its refreshing taste and health benefits.",
-					"P 116.25",
+					"Cool Mint Milkshake 500ml",
+					"<html>Cool Mint Milkshake is the perfect blend of creamy indulgence and refreshing minty freshness. Made with premium ice cream and a hint of cool mint, this milkshake delivers a smooth, velvety texture with an invigorating burst of mint that will leave your taste buds feeling refreshed and satisfied. It’s the ultimate treat for anyone who loves a crisp, cool twist on a classic milkshake.<br>Ice Cream Base: Vanilla Ice Cream | Topping: Chocolate<br></html>",
+					"P 67.50",
 					cool
 					));
 			
 			item.add(new lib.item(
-					"Coconut MilkShake",
-					"Crafted from the finest grains, hops, water, and yeast. Bold flavors, smooth textures, and refreshing satisfaction in every sip. Whether it's a crisp lager or a hoppy IPA, there's a perfect brew for everyone. Cheers to good times!",
-					"P 102.90",
+					"Coconut Milkshake 500ml",
+					"<html>Coconut Milkshake is a tropical escape in every sip! This creamy, indulgent treat blends the rich, smooth flavor of coconut with velvety ice cream, creating a sweet, refreshing drink that transports you straight to paradise. With each sip, you’ll experience the perfect balance of coconut’s natural sweetness and the creamy texture that makes this milkshake utterly irresistible.<br>Ice Cream Base: Vanilla Ice Cream | Topping: Coconut Meat</html>",
+					"P 50.50",
 					coconut
 					));
 			
 			item.add(new lib.item(
-					"Blueberry Cheesecake MilkShake",
-					"A fizzy, sweetened drink with a variety of flavors, from cola to fruit. Refreshing and bubbly, it's perfect for any moment!",
-					"P 95.95",
+					"Blueberry Cheesecake Milkshake 500ml",
+					"<html>Blueberry Cheesecake Milkshake is a decadent dessert in a glass, combining the rich, creamy texture of cheesecake with the sweet, tangy burst of fresh blueberries. This indulgent milkshake brings together the best of both worlds—smooth, velvety vanilla ice cream and the deliciously fruity flavor of ripe blueberries, all blended with a hint of graham cracker crust for that authentic cheesecake experience.<br>Ice Cream Base: Vanilla Ice Cream | Topping: Blueberry</html>",
+					"P 67.50",
 					blueBerry
 					));
 			
 			item.add(new lib.item(
-					"Vanilla Special Milkshake",
-					"Nature's perfect drink! Packed with calcium and protein, it's creamy, nutritious, and versatile. Whether enjoyed on its own or in your favorite recipes, milk is a delicious choice for a healthy lifestyle. Drink up for strong bones and a happy life!",
-					"P 95.95",
+					"Vanilla Special Milkshake 500ml",
+					"<html>Vanilla Special Milkshake is the ultimate classic indulgence, made with rich, velvety vanilla ice cream and a touch of extra sweetness to elevate the timeless flavor. This milkshake brings the comforting taste of pure vanilla to life, offering a creamy, smooth texture with every sip. Perfectly balanced, it’s a simple yet luxurious treat that’s guaranteed to satisfy your sweet tooth.<br>Ice Cream Base: Vanilla Ice Cream | Topping: Cherry, Sprinkles </html>",
+					"P 60.50",
 					vanilla
 					));
 			
 			item.add(new lib.item(
-					"Triple Nut Caramel MilkShake",
-					"A refined drink made from fermented grapes, featuring diverse flavors and aromas. Perfect for pairing with food, there's a wine for every occasion. Elevate your experience with every sip!",
-					"P 95.95",
+					"Triple Nut Caramel Milkshake 500ml",
+					"<html>Triple Nut Caramel Milkshake is an irresistible indulgence that brings together the perfect combination of rich caramel, creamy vanilla ice cream, and three premium nuts—crunchy almonds, roasted hazelnuts, and smooth pecans. Every sip delivers a delightful mix of sweet, nutty, and buttery flavors, creating a decadent treat that’s both creamy and satisfying.<br>Ice Cream Base: Vanilla Ice Cream | Topping: Almond Nut, Soy Nut, Hazelnut, Caramel Glaze<br></html>",
+					"P 60.50",
 					tripleNut
 					));
 			
