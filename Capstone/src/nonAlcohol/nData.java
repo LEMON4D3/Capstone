@@ -376,65 +376,65 @@ public class nData {
 			ImageIcon virginMary = new ImageIcon(imageLoc + "virginMary.png");
 			
 			item.addLast(new lib.item(
-					"Tamarind Pineapple Quencher Mocktails",
-					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
-					"P 25.20",
+					"<html>Tamarind Pineapple Quencher Mocktail 500ml</html>",
+					"<html>This invigorating drink offers a perfect balance of tart and sweet, with a lively, citrusy twist that will leave your taste buds craving more. The smooth, fruity base is complemented by a touch of spice, creating a one-of-a-kind flavor experience that’s both refreshing and exotic.<br>Sugar Content: 26g</html>",
+					"P 60.10",
 					tamarind
 					));
 			
 			item.addLast(new lib.item(
-					"Sparkling Tropical Mocktails",
-					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
-					"P 26.20",
+					"Sparkling Tropical Mocktails 500ml",
+					"<html>Sparkling Tropical Mocktail is your perfect escape to paradise in a glass! Bursting with vibrant tropical flavors like juicy pineapple, zesty orange, and refreshing coconut, this sparkling mocktail combines the sweetness of sun-ripened fruits with a bubbly fizz for a delightful, refreshing experience.<br>Sugar Content: 25g</html>",
+					"P 55.00",
 					sparklingTropical
 					));
 			
 			item.addLast(new lib.item(
-					"Strawberry Daiquiri Mocktails",
-					"The OG, the flavor that started it all—classic, cool, crisp lemon-lime taste that’s caffeine free with 100% natural flavors.",
-					"P 25.20",
+					"Strawberry Daiquiri Mocktails 500ml",
+					"<html>This alcohol-free version of the classic daiquiri delivers all the delicious flavor you love—smooth, sweet, and tart—without the buzz. The crushed ice adds a frosty, slushy texture, making it an irresistible treat for warm days, poolside lounging, or any festive occasion.<br>Sugar Content: 20g</html>",
+					"P 68.00",
 					strawberryDaiquiri
 					));
 			
 			item.addLast(new lib.item(
-					"Chocolate Martini Mocktails",
-					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
-					"P 34.20",
+					"Chocolate Martini Mocktails 500ml",
+					"<html>Chocolate Martini Mocktail is the ultimate indulgence for anyone with a sweet tooth! This alcohol-free version of the classic chocolate martini combines rich, velvety chocolate with a smooth, creamy base, creating a luxurious drink that’s both decadent and refreshing. With hints of cocoa and a silky texture, this mocktail delivers all the chocolatey goodness you love, without the alcohol.<br>Sugar Content: 20g</html>",
+					"P 60.10",
 					chocolateMartini
 					));
 			
 			item.addLast(new lib.item(
-					"Pina Colada Mocktails",
-					"Mountain Dew delivers a bold, citrusy punch with sharp lemon-lime flavors and a smooth hint of tropical sweetness. Its lively fizz adds an extra burst of refreshment, making it an energizing and vibrant drink.",
-					"P 32.40",
+					"Piña Colada Mocktails 500ml",
+					"<html>Piña Colada Mocktail is a tropical paradise in a glass! Perfectly blended with ice, it delivers a refreshing, smooth, and frosty experience that’s as vibrant as a tropical getaway. No alcohol, just pure, luscious coconut and pineapple goodness in every sip.<br>Sugar Content: 25g</html>",
+					"P 65.00",
 					pinaColada
 					));
 			
 			item.addLast(new lib.item(
-					"Tart Cherry Shirley Temple Mocktails",
-					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
-					"P 34.20",
+					"Tart Cherry Shirley Temple Mocktails 500ml",
+					"<html>This vibrant drink combines the sweet and fizzy bubbles of ginger ale with the rich, fruity taste of cherry, topped off with a splash of lime for that perfect balance of sweet and tart. It’s a fun, sparkling beverage that’s sure to brighten up any occasion.<br>Sugar Content: 23g</html>",
+					"P 68.00",
 					tcShirley
 					));
 	
 			item.addLast(new lib.item(
-					"Mojito Mocktail",
-					"A refreshing burst of fizzy sweetness, with bold caramel notes, a touch of citrus, and an invigorating crispness in every sip. It's the classic taste that lifts your spirits and satisfies like no other.",
-					"P 34.20",
+					"Mojito Mocktail 500ml ",
+					"<html>The Mojito Mocktail offers the perfect balance of sweet, tart, and minty goodness with a fizzy twist, delivering the signature flavors of a Mojito without the alcohol. Garnished with a sprig of mint and a lime wedge, it’s a drink that’s both refreshing and visually stunning<br>Sugar Content: 27g</html>",
+					"P 60.10",
 					mojito
 					));
 			
 			item.addLast(new lib.item(
-					"Tart Cherry-Hibiscus Mocktails",
-					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
-					"P 34.20",
+					"Tart Cherry-Hibiscus Mocktails 500ml",
+					"<html>The rich, tangy cherry flavor is beautifully balanced by the floral, slightly tangy notes of hibiscus, creating a vibrant, aromatic drink that’s as refreshing as it is invigorating. The combination of these two powerhouse ingredients delivers a delightful burst of fruity and floral goodness in every sip.<br>Sugar Content: 20g</html>",
+					"P 55.00",
 					tartCherry
 					));
 			
 			item.addLast(new lib.item(
-					"Virgin Mary's Mocktails",
-					"Royal is your playful fruity indulgence in a bottle with its true taste of fun that leaves you feeling lively.",
-					"P 34.20",
+					"Virgin Mary’s Mocktails",
+					"<html>Virgin Mary's Mocktails are the perfect alcohol-free alternative to the classic Bloody Mary, offering all the bold, savory flavors you love without the booze. Perfectly balanced with just the right amount of kick, these mocktails are as delicious as they are satisfying.<br>Sugar Content: 23g</html>",
+					"P 68.00",
 					virginMary
 					));
 		}

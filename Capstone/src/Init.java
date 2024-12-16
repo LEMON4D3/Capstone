@@ -27,7 +27,7 @@ public class Init extends JFrame{
 		//this.add(new createReceipt());
 		
 		//this.add(new lib.lib.distilledF(new whiskey(), 1));
-		this.add(new lib.lib.fruitF(new coffee(), 6 ));
+		this.add(new lib.lib.fruitF(new mockTail(), 7 ));
 		
 		this.pack();
 		this.setLocationRelativeTo(null);

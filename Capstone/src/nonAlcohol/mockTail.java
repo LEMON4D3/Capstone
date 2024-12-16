@@ -104,7 +104,7 @@ public class mockTail extends JLayeredPane{
 		itemPane.setBorder(BorderFactory.createEmptyBorder() );
 		itemPane.getVerticalScrollBar().setUnitIncrement(16);
 		
-		itemPane.setBounds(14, 160, 1080 - 14, 720 - 150);
+		itemPane.setBounds(7, 160, 1080 - 14, 720 - 150);
 		itemPane.setOpaque(false);
 		itemPane.getViewport().setOpaque(false);
 		
@@ -136,19 +136,20 @@ public class mockTail extends JLayeredPane{
 			
 			JLabel image = new JLabel();
 			image.setIcon(items.image);
-			image.setBounds(62, 19, 308, 262);
+			image.setBounds(75, 10, 325, 275);
 			
 			JLabel name = new JLabel(items.name);
-			name.setBounds(62, 290, 373, 41);
-			name.setFont(tools.BoldFont(24));
+			name.setBounds(50, 275, 375, 75);
+			name.setFont(tools.BoldFont(20));
 			
-			JLabel desc = new JLabel("<html>" + items.desc + "</html>");
-			desc.setBounds(62, 332, 274, 182);
-			desc.setFont(tools.RegularFont(16));
+			JLabel desc = new JLabel(items.desc);
+			desc.setBounds(50, 350, 325, 175);
+			desc.setVerticalAlignment(JLabel.TOP);
+			desc.setFont(tools.RegularFont(14));
 		
 			
 			JLabel price = new JLabel(items.price);
-			price.setBounds(62, 505, 86, 41);
+			price.setBounds(50, 510, 200, 50);
 			price.setFont(tools.BoldFont(24));
 			
 			this.add(new background(), Integer.valueOf(0));
@@ -190,10 +191,11 @@ public class mockTail extends JLayeredPane{
 			image.setIcon(items.image);
 			
 			JLabel name = new JLabel(items.name);
-			name.setFont(tools.BoldFont(24));
+			name.setFont(tools.BoldFont(16));
 			
-			JLabel desc = new JLabel("<html>" + items.desc + "</html>");
-			desc.setFont(tools.RegularFont(15));
+			JLabel desc = new JLabel(items.desc);
+			desc.setVerticalAlignment(JLabel.TOP);
+			desc.setFont(tools.RegularFont(14));
 			
 			JLabel price = new JLabel(items.price);
 			price.setFont(tools.BoldFont(24));
@@ -204,10 +206,10 @@ public class mockTail extends JLayeredPane{
 				color = Color.decode("#7AAABB");
 				sColor = smallColor.Green;
 				
-				image.setBounds(39, 25, 230, 232);
-				name.setBounds(298, 14, 346, 41);
-				desc.setBounds(298, 59, 274, 175);
-				price.setBounds(298, 229, 86, 41);
+				image.setBounds(40, 25, 250, 225);
+				name.setBounds(300, 10, 350, 50);
+				desc.setBounds(300, 50, 275, 175);
+				price.setBounds(300, 225, 100, 50);
 				
 				break;
 			case Green:
