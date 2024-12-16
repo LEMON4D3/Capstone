@@ -158,7 +158,7 @@ public class createReceipt extends JLayeredPane{
 			itemL.setMaximumSize(new Dimension(635, 50));
 			
 			
-			JLabel nameTemp = new JLabel(i.name);
+			JLabel nameTemp = new JLabel("<html>" + i.name + "</html>");
 			nameTemp.setMaximumSize(new Dimension(245, 50));
 			
 			JLabel quantityTemp = new JLabel("" + i.quantity);
