@@ -8,7 +8,7 @@ public class user {
 
 	public static LinkedList<lib.item> item = new LinkedList<lib.item>();
 	
-	public static String name = "Ryan", date, orderNo;
+	public static String name = "", date, orderNo;
 	
 	public static double totalCost, userCash;
 	
