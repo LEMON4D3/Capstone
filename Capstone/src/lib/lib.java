@@ -34,6 +34,8 @@ import nonAlcohol.tea;
 
 public class lib {
 	
+	static public ImageIcon person = new ImageIcon("src/rsc/person.png");
+	
 	static public JFrame frame;
 	
 	static public JLayeredPane currentPane;
@@ -319,6 +321,10 @@ public class lib {
 			JLayeredPane searchPane = new searchBar();
 			searchPane.addMouseListener(change2(pane, new mainPage.search()));
 			
+			JLabel personT = new JLabel();
+			personT.setIcon(person);
+			personT.setBounds(934, 0, 100, 100);
+			
 			this.add(searchPane, Integer.valueOf(0));
 			this.add(searchImg, Integer.valueOf(1));
 			this.add(searchT, Integer.valueOf(1));
@@ -326,6 +332,7 @@ public class lib {
 			this.add(menuT);
 			this.add(iconT);
 			this.add(cartT);
+			this.add(personT);
 			
 			this.add(new upperHeader(pane));
 			this.add(new bottomHeader(choice, pane));
@@ -374,7 +381,7 @@ public class lib {
 	// ---------------------------------------- End Fermented Header ------------------------------------------
 	
 	
-	// ---------------------------------------- Start Fermented Header ------------------------------------------
+	// ---------------------------------------- Start Distilled Header ------------------------------------------
 	
 	static class distilledHeader extends JLayeredPane{
 		
@@ -580,6 +587,10 @@ public class lib {
 			JLayeredPane searchPane = new searchBar();
 			searchPane.addMouseListener(change2(pane, new mainPage.search()));
 			
+			JLabel personT = new JLabel();
+			personT.setIcon(person);
+			personT.setBounds(934, 0, 100, 100);
+			
 			this.add(searchPane, Integer.valueOf(0));
 			this.add(searchImg, Integer.valueOf(1));
 			this.add(searchT, Integer.valueOf(1));
@@ -587,6 +598,7 @@ public class lib {
 			this.add(menuT);
 			this.add(iconT);
 			this.add(cartT);
+			this.add(personT);
 			
 			this.add(new upperHeader(pane));
 			this.add(new bottomHeader(choice, pane));
@@ -828,6 +840,10 @@ public class lib {
 			JLayeredPane searchPane = new searchBar();
 			searchPane.addMouseListener(change2(pane, new mainPage.search()));
 			
+			JLabel personT = new JLabel();
+			personT.setIcon(person);
+			personT.setBounds(934, 0, 100, 100);
+			
 			this.add(searchPane, Integer.valueOf(0));
 			this.add(searchImg, Integer.valueOf(1));
 			this.add(searchT, Integer.valueOf(1));
@@ -835,7 +851,8 @@ public class lib {
 			this.add(menuT);
 			this.add(iconT);
 			this.add(cartT);
-	
+			this.add(personT);
+			
 			this.add(new bottomHeader(choice, pane));
 			
 		}
