@@ -21,9 +21,9 @@ public class Init extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		
-		this.add(new login());
+		//this.add(new login());
 		
-		//this.add(new receipt());
+		this.add(new alcoholCategories());
 		
 		//this.add(new lib.lib.distilledF(new whiskey(), 1));
 		

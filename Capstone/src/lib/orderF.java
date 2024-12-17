@@ -26,13 +26,13 @@ public class orderF extends JLayeredPane{
 		nonAlcoholic.setForeground(new Color(0, 0, 0, 135));
 		
 		JLabel name = new JLabel("<html>" + item.name + "</html>");
-		name.setBounds(453, 134, 250, 50);
+		name.setBounds(500, 100, 500, 100);
 		name.setForeground(Color.decode("#FFFC9D"));
 		name.setFont(tools.BoldFont(32));
 		
-		JLabel desc = new JLabel("<html>" + item.desc + "</html>");
-		desc.setBounds(453, 189, 507, 316);
-		desc.setFont(tools.RegularFont(24));
+		JLabel desc = new JLabel(item.desc);
+		desc.setBounds(500, 200, 507, 316);
+		desc.setFont(tools.RegularFont(18));
 		
 		JLabel image = new JLabel();
 		image.setIcon(item.image);
