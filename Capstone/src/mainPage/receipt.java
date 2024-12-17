@@ -83,7 +83,9 @@ public class receipt extends JLayeredPane {
 			
 			public void mousePressed(MouseEvent e) {
 				
-				lib.lib.quit();
+				new popUp();
+				
+				
 				
 			}
 			
